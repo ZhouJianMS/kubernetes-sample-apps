@@ -24,3 +24,8 @@ patches:
       version: v1
       kind: Service
       name: voting-svc
+  - path: patches/web-svc.yaml
+    target:
+      version: v1
+      kind: Service
+      name: web-svc
